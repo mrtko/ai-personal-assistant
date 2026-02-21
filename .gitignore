@@ -1,0 +1,33 @@
+# Next.js
+app/.next/
+app/out/
+
+# Dependencies
+app/node_modules/
+
+# Environment variables
+app/.env
+app/.env.local
+app/.env.*.local
+
+# Debug logs
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Claude internal files
+.claude/
+memory/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Next.js generated
+app/next-env.d.ts
